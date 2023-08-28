@@ -1,0 +1,23 @@
+﻿<Properties>
+  <Array name="active" />
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="TestPlayer.rxtst" />
+    <Element value="CreateNewPlayerWithoutAccount.rxrec" />
+    <Element value="testaaa.rxrec" />
+    <Element value="CreateNewPlayerWithoutAccount.UserCode.cs" />
+    <Element value="CheckNewPlayerCreatedInDB.rxrec" />
+    <Element value="CheckNewPlayerCreatedInDB.UserCode.cs" />
+    <Element value="OpenNewPlayerCreationPanel.rxrec" />
+    <Element value="SearchExistingPlayer.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections">
+      <Element value="TestPlayer.CreateNewPlayerWithoutAccount.CheckPlayerCreatedInDB(RepoItemInfo textInfo, String firstName, String lastName)" />
+      <Element value="TestPlayer.CreateNewPlayerWithoutAccount.CheckPlayerCreatedInDB(RepoItemInfo textInfo)" />
+      <Element value="TestPlayer.CreateNewPlayerWithoutAccount.Get_value_PlayerID(RepoItemInfo textInfo)" />
+      <Element value="TestPlayer.OpenApplication.OpenApplication_Run_application()" />
+      <Element value="TestPlayer.OpenApplication.Report_Log()" />
+    </Array>
+  </Properties>
+</Properties>
