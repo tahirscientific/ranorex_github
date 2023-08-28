@@ -1,0 +1,498 @@
+﻿<repository
+id="f8f2eb6e-ed09-484e-a7d7-c45176af8f99"
+name="TestPlayerRepository">
+	<codegen
+	classname="TestPlayerRepository"
+	namespace="TestPlayer">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="4958389b-0572-4dce-bb3d-6a1e072c8e7a"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="5cfc46ca-ec02-429b-9fcb-ac91df255d32"
+		isrooted="True"
+		name="MotDePasse"
+		refpath="/form[@name='GetPassword']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,nativewindow,delphielement"
+			capname="text"
+			id="80ee1685-1e58-4b66-81bc-c5979bcc6e10"
+			name="Password"
+			refimgid="b655ed04-e5f3-4e4e-8d50-28d92d9e025b"
+			refpath="/form[@name='GetPassword']/container[@name='Panel1']/text[@name='Password']"
+			robustPath="/form[@name='GetPassword']/?/?/text[@name='Password']"
+			searchtimeout="30000ms">
+				/form[@name='GetPassword']/?/?/text[@name='Password']
+			</item>
+			<item
+			addcaps="button,nativewindow,delphielement"
+			capname="button"
+			id="cc9b62d9-bb2b-4a69-ba56-68004df5f261"
+			name="ButtonOK"
+			refimgid="057aebb8-ad7f-4439-aa82-9b2c393165fa"
+			refpath="/form[@name='GetPassword']/container[@name='MccButtonNav1']/button[@name='Btn_OK']"
+			robustPath="/form[@name='GetPassword']/?/?/button[@name='Btn_OK']"
+			searchtimeout="30000ms">
+				/form[@name='GetPassword']/?/?/button[@name='Btn_OK']
+			</item>
+			<basepath>
+				/form[@name='GetPassword']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKQSURBVDhPfdNfSFNxFAdwnwdlZEL+FyQXM6QH
+tVUP1oMKgYKYiCVhIDcdYkqj1qBmPdTyIf+wZuma1IPmasZwMZ3mnEEmPRQ+ZEZYc25J/nsydjfo
+27lnbs0F/eBwL/fe8/md3/ndX8LvbW/6miMP/4v1MQVsHVl4cSeT7yPPt2bPvU3gDyaKEPhuxMZC
+J86WH8fta5UIrDyF+OMZxNVhOEfa4Vn0YOnTEgaMVxDcGMMvTz8jDAS+GQjoRUVZEebfzMNlc+Hn
+Qi8BQwiuWjD2/CYnS9F9T8VAcHMyBqDZA54+tF0q42RtmxZf39/HO+ddVFFFB5L2ITsrG82NzUhL
+TWMgFA/4P3ahvrYeCrkCrY2tUBYUwWq1QhqFhYWYnZ7F0JMhuJ1uAsbjAI8RHybbMTo4yktoEVrQ
+dLEJoVCIAYPBAPuIHSpBxUBoY4KAqXhAh9LTpQxI15rKGiQnJ0MQBBQXFyNpfxJyD+XCNe4i4DVC
+W+6/gLhTQUZaBoQLAgMajQZzc3NQKpW8hJycHKQcTMHJY3kETFIFu4AHEL2P0HC+hJMz0zN55sjI
+z8+HQqFA+Zly3LhaRz1w7l6CuCwBD9FQFwbMPWaeWRoWi4WT44Hd27jcQ4AxCpi6TJDL5dDr9dzA
+CJC4dw98n4fDPdicjgW6CeiFTl2JgqMFKDl1BB26Wp5dpVJBJpOhquIEgms2BNcdBExRE2diluA1
+QFzpQ9BnhuiXYgBO63UGdDodVzFoUu8AryikHsRUIHqpBwSI/sc7gJkATRSQroMmOgMSsGYngH5l
+2okosL2oJcAI0ddPySaGIkB1dTXUajWcL29BJEBkwEHARBiQjqR0Ex9fLIfpDCTybnReTv3nfTjy
+8Acft9B6Lj14JgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="8ef6c1ec-c69a-4fa2-9551-a217ca411713"
+		isrooted="True"
+		name="VIPlayers23101456"
+		refimgid="9a90e58b-8296-40b7-aa73-9f623b05d4b8"
+		refpath="/form[@name='Form1']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="menuitem,delphielement"
+			capname="menuitem"
+			id="9405e185-2c47-4c9b-b380-cac4eb6f704c"
+			name="MenuItemBonusPoint"
+			refimgid="3d9aa32c-543e-4cc2-b6b2-342d65fd99d9"
+			refpath="/form[@name='Form1']/menubar[@name='MainMenu']/menuitem[@name='BonusPoint1']"
+			robustPath="/form[@name='Form1']/?/?/menuitem[@name='BonusPoint1']"
+			searchtimeout="30000ms">
+				/form[@name='Form1']/?/?/menuitem[@name='BonusPoint1']
+			</item>
+			<item
+			addcaps="menuitem,delphielement"
+			capname="menuitem"
+			id="48a72c4a-2e4b-4889-97de-6d6b50fdf096"
+			name="MenuItemPlayers"
+			refimgid="968f2a22-ad58-480e-8711-7b816174c83a"
+			refpath="/form[@name='Form1']/menubar[@name='MainMenu']/menuitem[@name='Players1']"
+			robustPath="/form[@name='Form1']/?/?/menuitem[@name='Players1']"
+			searchtimeout="30000ms">
+				/form[@name='Form1']/?/?/menuitem[@name='Players1']
+			</item>
+			<item
+			addcaps="menuitem,delphielement"
+			capname="menuitem"
+			id="7701bc70-9a4b-4723-b13d-1f037932124c"
+			name="MenuItemEtatsCentralisation"
+			refimgid="2e063217-f1f6-4f01-a023-13c456d06c5a"
+			refpath="/form[@name='Form1']/menubar[@name='MainMenu']/menuitem[@name='Etatscentralisation1']"
+			robustPath="/form[@name='Form1']/?/?/menuitem[@name='Etatscentralisation1']"
+			searchtimeout="30000ms">
+				/form[@name='Form1']/?/?/menuitem[@name='Etatscentralisation1']
+			</item>
+			<item
+			addcaps="menuitem,delphielement"
+			capname="menuitem"
+			id="010bd5ba-8e93-4890-8c23-31648b5522e6"
+			name="MenuItemCalculDePoints"
+			refimgid="83cd9694-8374-4c4c-a977-71d5def1858a"
+			refpath="/form[@name='Form1']/menubar[@name='MainMenu']/menuitem[@name='Calculdepoints1']"
+			robustPath="/form[@name='Form1']/?/?/menuitem[@name='Calculdepoints1']"
+			searchtimeout="30000ms">
+				/form[@name='Form1']/?/?/menuitem[@name='Calculdepoints1']
+			</item>
+			<item
+			addcaps="menuitem,delphielement"
+			capname="menuitem"
+			id="35b47efb-7233-4f8d-a46d-5dfc0a63b2be"
+			name="Configuration"
+			refimgid="67e88468-49cb-495f-b9af-794d5e8c2d02"
+			refpath="/form[@name='Form1']/menubar[@name='MainMenu']/menuitem[@name='Configuration1']"
+			robustPath="/form[@name='Form1']/?/?/menuitem[@name='Configuration1']"
+			searchtimeout="30000ms">
+				/form[@name='Form1']/?/?/menuitem[@name='Configuration1']
+			</item>
+			<item
+			addcaps="menuitem,delphielement"
+			capname="menuitem"
+			id="0f5da6da-26a0-4ed8-8280-ea7f07857f00"
+			name="MenuItemFenetre"
+			refimgid="9dc9b4a7-b9ec-4074-899b-1fe54b381dc3"
+			refpath="/form[@name='Form1']/menubar[@name='MainMenu']/menuitem[@text='&amp;Fenêtre']"
+			robustPath="/form[@name='Form1']/?/?/menuitem[@text='&amp;Fenêtre']"
+			searchtimeout="30000ms">
+				/form[@name='Form1']/?/?/menuitem[@text='&amp;Fen&#234;tre']
+			</item>
+			<item
+			addcaps="text,delphielement"
+			capname="text"
+			id="77243a68-7211-4d9d-9636-efd81e08b510"
+			name="PlayerID"
+			refimgid="fd729eaf-c5b9-4bec-83a0-8afde5085aaf"
+			refpath="/form[@name='Form1']/form[@name='Player_GstPlJou']/container[@name='Panel8']/tabpagelist[@name='TabPhysio']/container[@name='tsCivil']/container[@name='Panel9']/container[@name='Panel2']/text[@name='DBText2']"
+			robustPath="/form[@name='Form1']//text[@name='DBText2']"
+			searchtimeout="30000ms">
+				/form[@name='Form1']/form[@name='Player_GstPlJou']//container[@name='tsCivil']/container[@name='Panel9']/?/?/text[@name='DBText2']
+			</item>
+			<item
+			addcaps="button,delphielement"
+			capname="button"
+			id="f8dea9ad-0492-4ccd-93fa-b600e6bcf775"
+			name="SomeButton"
+			refimgid="e68109d4-93bc-4d23-a5d0-3d0d3727ac22"
+			refpath="/form[@name='Form1']/form[@name='Player_GstPlJou']/container[@name='Panel8']/tabpagelist[@name='TabPhysio']/container[@name='tsCivil']/container[@name='DBNavigator1']/button[8]"
+			robustPath="/form[@name='Form1']//container[@name='DBNavigator1']/button[8]"
+			searchtimeout="30000ms">
+				<image
+				guid="e19df7e0-0cde-4fa1-bc84-6ca7ead59879"
+				name="Screenshot1">
+					iVBORw0KGgoAAAANSUhEUgAAABYAAAASCAIAAADQR7l6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAa5JREFUOE+dkz1v01AUht8iivgV/ID+C5b+Amambkxs2TJmQcrapUIM
+SEDapp9BYqilSlWBFBakrAxBKqRtbMcf15bvOeEc57aijqWmHD2yrHPO+9iyrsHTwBwj7iL9iKSH
+5ADJ/l3sItlG9BbjV7DnT2A8ZCdLbFrTKd8Ltl5+9kBEmLwGhc8q48WJt4D0E+Tuf8oOecr5j2Wk
+PTAHTPcnHzBxdvZQvx/bQCmG8+C6Kn3JU+pxwVlfFHsyHih5fx4nEEVlZDxKOpTfKLTrcSYcsrmF
+E4jidp/SDsU3it1SYbxy1uFUcbm60gV5vuSjN2Q4+yqKHVBySFHZmqxTqLj1upotUNi2fpuSwHwR
+RRcaLrvkt2a49bpyO+OWHTcpGqpCjrbmZ93Lpr1s/IvLAZW+ctGwYd+cimITNC6Toxf2TxUnEMXc
+SPE9VUTvQFet2rzgBHWKQq5+33yWt/ggirY9f17ZuBNVBIPs22OMGih+rsgr2d9r2tXZy4W4aNpJ
+EPeA+D3kbyt+PbWjppuNGgsgy2vZ90fpkRwVGsgBDTcQbSLqIt5bjH3EOxohf/UveVFRpUn+2GQA
+AAAASUVORK5CYII=
+				</image>
+				/form[@name='Form1']/form[@name='Player_GstPlJou']//container[@name='tsCivil']/container[@name='DBNavigator1']/button[8]
+			</item>
+			<basepath>
+				/form[@name='Form1']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKQSURBVDhPfdNfSFNxFAdwnwdlZEL+FyQXM6QH
+tVUP1oMKgYKYiCVhIDcdYkqj1qBmPdTyIf+wZuma1IPmasZwMZ3mnEEmPRQ+ZEZYc25J/nsydjfo
+27lnbs0F/eBwL/fe8/md3/ndX8LvbW/6miMP/4v1MQVsHVl4cSeT7yPPt2bPvU3gDyaKEPhuxMZC
+J86WH8fta5UIrDyF+OMZxNVhOEfa4Vn0YOnTEgaMVxDcGMMvTz8jDAS+GQjoRUVZEebfzMNlc+Hn
+Qi8BQwiuWjD2/CYnS9F9T8VAcHMyBqDZA54+tF0q42RtmxZf39/HO+ddVFFFB5L2ITsrG82NzUhL
+TWMgFA/4P3ahvrYeCrkCrY2tUBYUwWq1QhqFhYWYnZ7F0JMhuJ1uAsbjAI8RHybbMTo4yktoEVrQ
+dLEJoVCIAYPBAPuIHSpBxUBoY4KAqXhAh9LTpQxI15rKGiQnJ0MQBBQXFyNpfxJyD+XCNe4i4DVC
+W+6/gLhTQUZaBoQLAgMajQZzc3NQKpW8hJycHKQcTMHJY3kETFIFu4AHEL2P0HC+hJMz0zN55sjI
+z8+HQqFA+Zly3LhaRz1w7l6CuCwBD9FQFwbMPWaeWRoWi4WT44Hd27jcQ4AxCpi6TJDL5dDr9dzA
+CJC4dw98n4fDPdicjgW6CeiFTl2JgqMFKDl1BB26Wp5dpVJBJpOhquIEgms2BNcdBExRE2diluA1
+QFzpQ9BnhuiXYgBO63UGdDodVzFoUu8AryikHsRUIHqpBwSI/sc7gJkATRSQroMmOgMSsGYngH5l
+2okosL2oJcAI0ddPySaGIkB1dTXUajWcL29BJEBkwEHARBiQjqR0Ex9fLIfpDCTybnReTv3nfTjy
+8Acft9B6Lj14JgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="contextmenu,nativewindow"
+		capname="contextmenu"
+		id="48f1ff4e-4dc4-4d62-9651-402663eec736"
+		isrooted="True"
+		name="Player"
+		refpath="/contextmenu[@processname='Player']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="15e510f4-dd39-4597-8d4f-c7edbd41bd78"
+			name="Quitter"
+			refimgid="91b769d8-1b14-4184-bd62-6fe6cb7c322e"
+			refpath="/contextmenu[@processname='Player']/contextmenu/menuitem[@accessiblename='Quitter']"
+			robustPath="/contextmenu[@processname='Player']/?/?/menuitem[@accessiblename='Quitter']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='Player']/?/?/menuitem[@accessiblename='Quitter']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="3e54bf3c-fcdc-4bc3-8d8d-e6afe548212a"
+			name="Gestion"
+			refimgid="12d96c45-30be-43bb-8a5a-85dc455d6fb1"
+			refpath="/contextmenu[@processname='Player' and @controlname='Menu']/contextmenu/menuitem[@accessiblename='Gestion']"
+			robustPath="/contextmenu[@processname='Player']/?/?/menuitem[@accessiblename='Gestion']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='Player']/?/?/menuitem[@accessiblename='Gestion']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="7b7c2512-2061-47f7-9c5c-353017bcdf47"
+			name="Joueur"
+			refimgid="6c563381-f7c2-43c4-8694-787a5c604476"
+			refpath="/contextmenu[@processname='Player' and @controlname='Gestion']/contextmenu/menuitem[@accessiblename='Joueur...']"
+			robustPath="/contextmenu[@processname='Player']/?/?/menuitem[@accessiblename='Joueur...']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='Player']/?/?/menuitem[@accessiblename='Joueur...']
+			</item>
+			<basepath>
+				/contextmenu[@processname='Player']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGOfPtRkwAAACBjSFJN
+AACHDwAAjA8AAP1SAACBQAAAfXkAAOmLAAA85QAAGcxzPIV3AAAKOWlDQ1BQaG90b3Nob3AgSUND
+IHByb2ZpbGUAAEjHnZZ3VFTXFofPvXd6oc0wAlKG3rvAANJ7k15FYZgZYCgDDjM0sSGiAhFFRJoi
+SFDEgNFQJFZEsRAUVLAHJAgoMRhFVCxvRtaLrqy89/Ly++Osb+2z97n77L3PWhcAkqcvl5cGSwGQ
+yhPwgzyc6RGRUXTsAIABHmCAKQBMVka6X7B7CBDJy82FniFyAl8EAfB6WLwCcNPQM4BOB/+fpFnp
+fIHomAARm7M5GSwRF4g4JUuQLrbPipgalyxmGCVmvihBEcuJOWGRDT77LLKjmNmpPLaIxTmns1PZ
+Yu4V8bZMIUfEiK+ICzO5nCwR3xKxRoowlSviN+LYVA4zAwAUSWwXcFiJIjYRMYkfEuQi4uUA4EgJ
+X3HcVyzgZAvEl3JJS8/hcxMSBXQdli7d1NqaQffkZKVwBALDACYrmcln013SUtOZvBwAFu/8WTLi
+2tJFRbY0tba0NDQzMv2qUP91829K3NtFehn4uWcQrf+L7a/80hoAYMyJarPziy2uCoDOLQDI3fti
+0zgAgKSobx3Xv7oPTTwviQJBuo2xcVZWlhGXwzISF/QP/U+Hv6GvvmckPu6P8tBdOfFMYYqALq4b
+Ky0lTcinZ6QzWRy64Z+H+B8H/nUeBkGceA6fwxNFhImmjMtLELWbx+YKuGk8Opf3n5r4D8P+pMW5
+FonS+BFQY4yA1HUqQH7tBygKESDR+8Vd/6NvvvgwIH554SqTi3P/7zf9Z8Gl4iWDm/A5ziUohM4S
+8jMX98TPEqABAUgCKpAHykAd6ABDYAasgC1wBG7AG/iDEBAJVgMWSASpgA+yQB7YBApBMdgJ9oBq
+UAcaQTNoBcdBJzgFzoNL4Bq4AW6D+2AUTIBnYBa8BgsQBGEhMkSB5CEVSBPSh8wgBmQPuUG+UBAU
+CcVCCRAPEkJ50GaoGCqDqqF6qBn6HjoJnYeuQIPQXWgMmoZ+h97BCEyCqbASrAUbwwzYCfaBQ+BV
+cAK8Bs6FC+AdcCXcAB+FO+Dz8DX4NjwKP4PnEIAQERqiihgiDMQF8UeikHiEj6xHipAKpAFpRbqR
+PuQmMorMIG9RGBQFRUcZomxRnqhQFAu1BrUeVYKqRh1GdaB6UTdRY6hZ1Ec0Ga2I1kfboL3QEegE
+dBa6EF2BbkK3oy+ib6Mn0K8xGAwNo42xwnhiIjFJmLWYEsw+TBvmHGYQM46Zw2Kx8lh9rB3WH8vE
+CrCF2CrsUexZ7BB2AvsGR8Sp4Mxw7rgoHA+Xj6vAHcGdwQ3hJnELeCm8Jt4G749n43PwpfhGfDf+
+On4Cv0CQJmgT7AghhCTCJkIloZVwkfCA8JJIJKoRrYmBRC5xI7GSeIx4mThGfEuSIemRXEjRJCFp
+B+kQ6RzpLuklmUzWIjuSo8gC8g5yM/kC+RH5jQRFwkjCS4ItsUGiRqJDYkjiuSReUlPSSXK1ZK5k
+heQJyeuSM1J4KS0pFymm1HqpGqmTUiNSc9IUaVNpf+lU6RLpI9JXpKdksDJaMm4ybJkCmYMyF2TG
+KQhFneJCYVE2UxopFykTVAxVm+pFTaIWU7+jDlBnZWVkl8mGyWbL1sielh2lITQtmhcthVZKO04b
+pr1borTEaQlnyfYlrUuGlszLLZVzlOPIFcm1yd2WeydPl3eTT5bfJd8p/1ABpaCnEKiQpbBf4aLC
+zFLqUtulrKVFS48vvacIK+opBimuVTyo2K84p6Ss5KGUrlSldEFpRpmm7KicpFyufEZ5WoWiYq/C
+VSlXOavylC5Ld6Kn0CvpvfRZVUVVT1Whar3qgOqCmrZaqFq+WpvaQ3WCOkM9Xr1cvUd9VkNFw08j
+T6NF454mXpOhmai5V7NPc15LWytca6tWp9aUtpy2l3audov2Ax2yjoPOGp0GnVu6GF2GbrLuPt0b
+erCehV6iXo3edX1Y31Kfq79Pf9AAbWBtwDNoMBgxJBk6GWYathiOGdGMfI3yjTqNnhtrGEcZ7zLu
+M/5oYmGSYtJoct9UxtTbNN+02/R3Mz0zllmN2S1zsrm7+QbzLvMXy/SXcZbtX3bHgmLhZ7HVosfi
+g6WVJd+y1XLaSsMq1qrWaoRBZQQwShiXrdHWztYbrE9Zv7WxtBHYHLf5zdbQNtn2iO3Ucu3lnOWN
+y8ft1OyYdvV2o/Z0+1j7A/ajDqoOTIcGh8eO6o5sxybHSSddpySno07PnU2c+c7tzvMuNi7rXM65
+Iq4erkWuA24ybqFu1W6P3NXcE9xb3Gc9LDzWepzzRHv6eO7yHPFS8mJ5NXvNelt5r/Pu9SH5BPtU
++zz21fPl+3b7wX7efrv9HqzQXMFb0ekP/L38d/s/DNAOWBPwYyAmMCCwJvBJkGlQXlBfMCU4JvhI
+8OsQ55DSkPuhOqHC0J4wybDosOaw+XDX8LLw0QjjiHUR1yIVIrmRXVHYqLCopqi5lW4r96yciLaI
+LoweXqW9KnvVldUKq1NWn46RjGHGnIhFx4bHHol9z/RnNjDn4rziauNmWS6svaxnbEd2OXuaY8cp
+40zG28WXxU8l2CXsTphOdEisSJzhunCruS+SPJPqkuaT/ZMPJX9KCU9pS8Wlxqae5Mnwknm9acpp
+2WmD6frphemja2zW7Fkzy/fhN2VAGasyugRU0c9Uv1BHuEU4lmmfWZP5Jiss60S2dDYvuz9HL2d7
+zmSue+63a1FrWWt78lTzNuWNrXNaV78eWh+3vmeD+oaCDRMbPTYe3kTYlLzpp3yT/LL8V5vDN3cX
+KBVsLBjf4rGlpVCikF84stV2a9021DbutoHt5turtn8sYhddLTYprih+X8IqufqN6TeV33zaEb9j
+oNSydP9OzE7ezuFdDrsOl0mX5ZaN7/bb3VFOLy8qf7UnZs+VimUVdXsJe4V7Ryt9K7uqNKp2Vr2v
+Tqy+XeNc01arWLu9dn4fe9/Qfsf9rXVKdcV17w5wD9yp96jvaNBqqDiIOZh58EljWGPft4xvm5sU
+moqbPhziHRo9HHS4t9mqufmI4pHSFrhF2DJ9NProje9cv+tqNWytb6O1FR8Dx4THnn4f+/3wcZ/j
+PScYJ1p/0Pyhtp3SXtQBdeR0zHYmdo52RXYNnvQ+2dNt293+o9GPh06pnqo5LXu69AzhTMGZT2dz
+z86dSz83cz7h/HhPTM/9CxEXbvUG9g5c9Ll4+ZL7pQt9Tn1nL9tdPnXF5srJq4yrndcsr3X0W/S3
+/2TxU/uA5UDHdavrXTesb3QPLh88M+QwdP6m681Lt7xuXbu94vbgcOjwnZHokdE77DtTd1PuvriX
+eW/h/sYH6AdFD6UeVjxSfNTws+7PbaOWo6fHXMf6Hwc/vj/OGn/2S8Yv7ycKnpCfVEyqTDZPmU2d
+mnafvvF05dOJZ+nPFmYKf5X+tfa5zvMffnP8rX82YnbiBf/Fp99LXsq/PPRq2aueuYC5R69TXy/M
+F72Rf3P4LeNt37vwd5MLWe+x7ys/6H7o/ujz8cGn1E+f/gUDmPP8usTo0wAAAAlwSFlzAAAOxAAA
+DsQBlSsOGwAAAKtJREFUOE9j+P//P0UYzrAJyP6/ZsVMojFWAxjAXMIApwEgADJkx8Hz/8va5/7P
+qJr4PzK75b9XbNl/mDwI4DUABAi5hKABIAAyZNnGff8jc5r/e8aWk+YCGMDlEqJdAMNTF64nzgUw
+DSAAos+dOwfG6ACnATANyIY0dE4iLgy6OqpBgmCA7gp0gNUAqCAYbD8IcQVJLkA2AARg3iHJBaRg
+DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="dcf6f224-9c94-4d4d-af98-af51d87dc4a5"
+		isrooted="True"
+		name="Confirmer"
+		refpath="/form[@name='none']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow,delphielement"
+			capname="button"
+			id="48c9be2d-7aba-4908-9b4f-0b66ae195121"
+			name="ButtonOui"
+			refimgid="9f04a10e-1fd3-4a1a-bd31-c95779487358"
+			refpath="/form[@name='none']/button[@name='Yes']"
+			robustPath="/form[@name='none']/button[@name='Yes']"
+			searchtimeout="30000ms">
+				/form[@name='none']/button[@name='Yes']
+			</item>
+			<item
+			addcaps="button,nativewindow,delphielement"
+			capname="button"
+			id="f49108d2-f01e-444f-b17a-af1f22a4653c"
+			name="ButtonNon"
+			refimgid="7b7f6175-b008-449f-82a5-79c5c9ec5ed4"
+			refpath="/form[@name='none']/button[@name='No']"
+			robustPath="/form[@name='none']/button[@name='No']"
+			searchtimeout="30000ms">
+				/form[@name='none']/button[@name='No']
+			</item>
+			<basepath>
+				/form[@name='none']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKQSURBVDhPfdNfSFNxFAdwnwdlZEL+FyQXM6QH
+tVUP1oMKgYKYiCVhIDcdYkqj1qBmPdTyIf+wZuma1IPmasZwMZ3mnEEmPRQ+ZEZYc25J/nsydjfo
+27lnbs0F/eBwL/fe8/md3/ndX8LvbW/6miMP/4v1MQVsHVl4cSeT7yPPt2bPvU3gDyaKEPhuxMZC
+J86WH8fta5UIrDyF+OMZxNVhOEfa4Vn0YOnTEgaMVxDcGMMvTz8jDAS+GQjoRUVZEebfzMNlc+Hn
+Qi8BQwiuWjD2/CYnS9F9T8VAcHMyBqDZA54+tF0q42RtmxZf39/HO+ddVFFFB5L2ITsrG82NzUhL
+TWMgFA/4P3ahvrYeCrkCrY2tUBYUwWq1QhqFhYWYnZ7F0JMhuJ1uAsbjAI8RHybbMTo4yktoEVrQ
+dLEJoVCIAYPBAPuIHSpBxUBoY4KAqXhAh9LTpQxI15rKGiQnJ0MQBBQXFyNpfxJyD+XCNe4i4DVC
+W+6/gLhTQUZaBoQLAgMajQZzc3NQKpW8hJycHKQcTMHJY3kETFIFu4AHEL2P0HC+hJMz0zN55sjI
+z8+HQqFA+Zly3LhaRz1w7l6CuCwBD9FQFwbMPWaeWRoWi4WT44Hd27jcQ4AxCpi6TJDL5dDr9dzA
+CJC4dw98n4fDPdicjgW6CeiFTl2JgqMFKDl1BB26Wp5dpVJBJpOhquIEgms2BNcdBExRE2diluA1
+QFzpQ9BnhuiXYgBO63UGdDodVzFoUu8AryikHsRUIHqpBwSI/sc7gJkATRSQroMmOgMSsGYngH5l
+2okosL2oJcAI0ddPySaGIkB1dTXUajWcL29BJEBkwEHARBiQjqR0Ex9fLIfpDCTybnReTv3nfTjy
+8Acft9B6Lj14JgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,delphicontrol"
+		capname="form"
+		id="1c83a2ed-a877-48df-a7e8-2530cb91ec38"
+		isrooted="True"
+		name="Form1"
+		refimgid="e86f16cb-6a14-4fcc-a500-2f99e64ee307"
+		refpath="/form[@controlname='Form1']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="picture,delphielement"
+			capname="picture"
+			id="82febdbf-e4c6-4c64-a45f-7f67e393106b"
+			name="ImBackSplash"
+			refimgid="b75ca429-357a-4389-8f9b-ac2835e7482e"
+			refpath="/form[@name='Form1']/picture[@name='ImBackSplash']"
+			robustPath="/form[@controlname='Form1']/picture[@name='ImBackSplash']"
+			searchtimeout="30000ms">
+				/form[@controlname='Form1']/picture[@name='ImBackSplash']
+			</item>
+			<basepath>
+				/form[@controlname='Form1']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKQSURBVDhPfdNfSFNxFAdwnwdlZEL+FyQXM6QH
+tVUP1oMKgYKYiCVhIDcdYkqj1qBmPdTyIf+wZuma1IPmasZwMZ3mnEEmPRQ+ZEZYc25J/nsydjfo
+27lnbs0F/eBwL/fe8/md3/ndX8LvbW/6miMP/4v1MQVsHVl4cSeT7yPPt2bPvU3gDyaKEPhuxMZC
+J86WH8fta5UIrDyF+OMZxNVhOEfa4Vn0YOnTEgaMVxDcGMMvTz8jDAS+GQjoRUVZEebfzMNlc+Hn
+Qi8BQwiuWjD2/CYnS9F9T8VAcHMyBqDZA54+tF0q42RtmxZf39/HO+ddVFFFB5L2ITsrG82NzUhL
+TWMgFA/4P3ahvrYeCrkCrY2tUBYUwWq1QhqFhYWYnZ7F0JMhuJ1uAsbjAI8RHybbMTo4yktoEVrQ
+dLEJoVCIAYPBAPuIHSpBxUBoY4KAqXhAh9LTpQxI15rKGiQnJ0MQBBQXFyNpfxJyD+XCNe4i4DVC
+W+6/gLhTQUZaBoQLAgMajQZzc3NQKpW8hJycHKQcTMHJY3kETFIFu4AHEL2P0HC+hJMz0zN55sjI
+z8+HQqFA+Zly3LhaRz1w7l6CuCwBD9FQFwbMPWaeWRoWi4WT44Hd27jcQ4AxCpi6TJDL5dDr9dzA
+CJC4dw98n4fDPdicjgW6CeiFTl2JgqMFKDl1BB26Wp5dpVJBJpOhquIEgms2BNcdBExRE2diluA1
+QFzpQ9BnhuiXYgBO63UGdDodVzFoUu8AryikHsRUIHqpBwSI/sc7gJkATRSQroMmOgMSsGYngH5l
+2okosL2oJcAI0ddPySaGIkB1dTXUajWcL29BJEBkwEHARBiQjqR0Ex9fLIfpDCTybnReTv3nfTjy
+8Acft9B6Lj14JgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="0b19c5d5-a914-4368-a581-caa8854b5ffa"
+		isrooted="True"
+		name="RechercheClient23101456"
+		refimgid="01f41b35-8abe-4300-8051-061afcecf944"
+		refpath="/form[@name='GetCustomerL']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,nativewindow,delphielement"
+			capname="text"
+			id="3bd26178-5ce7-4f27-ade0-7d3c709ed5af"
+			name="Name"
+			refimgid="0324dc0d-55f2-4af9-a3cd-b45a0aa2653f"
+			refpath="/form[@name='GetCustomerL']/container[@name='Panel1']/container[@name='PanelField1']/text[@name='Name']"
+			robustPath="/form[@name='GetCustomerL']//text[@name='Name']"
+			searchtimeout="30000ms">
+				/form[@name='GetCustomerL']/container[@name='Panel1']/?/?/text[@name='Name']
+			</item>
+			<item
+			addcaps="text,nativewindow,delphielement"
+			capname="text"
+			id="ea4f5a7b-4b7b-4ecb-bd9b-ba4321c64fc6"
+			name="FirstName"
+			refimgid="8b81c9c8-8fce-419e-8c4b-04649bf834ad"
+			refpath="/form[@name='GetCustomerL']/container[@name='Panel1']/container[@name='PanelField3']/text[@name='FirstName']"
+			robustPath="/form[@name='GetCustomerL']//text[@name='FirstName']"
+			searchtimeout="30000ms">
+				/form[@name='GetCustomerL']/container[@name='Panel1']/?/?/text[@name='FirstName']
+			</item>
+			<item
+			addcaps="button,nativewindow,delphielement"
+			capname="button"
+			id="98475995-22ff-4e78-8868-f85035ecab17"
+			name="ButtonOK"
+			refimgid="1cf512d9-e65f-403e-a250-8a2fade0bcda"
+			refpath="/form[@name='GetCustomerL']/container[@name='MccButtonNav1']/button[@name='Btn_OK']"
+			robustPath="/form[@name='GetCustomerL']/?/?/button[@name='Btn_OK']"
+			searchtimeout="30000ms">
+				/form[@name='GetCustomerL']/?/?/button[@name='Btn_OK']
+			</item>
+			<basepath>
+				/form[@name='GetCustomerL']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKQSURBVDhPfdNfSFNxFAdwnwdlZEL+FyQXM6QH
+tVUP1oMKgYKYiCVhIDcdYkqj1qBmPdTyIf+wZuma1IPmasZwMZ3mnEEmPRQ+ZEZYc25J/nsydjfo
+27lnbs0F/eBwL/fe8/md3/ndX8LvbW/6miMP/4v1MQVsHVl4cSeT7yPPt2bPvU3gDyaKEPhuxMZC
+J86WH8fta5UIrDyF+OMZxNVhOEfa4Vn0YOnTEgaMVxDcGMMvTz8jDAS+GQjoRUVZEebfzMNlc+Hn
+Qi8BQwiuWjD2/CYnS9F9T8VAcHMyBqDZA54+tF0q42RtmxZf39/HO+ddVFFFB5L2ITsrG82NzUhL
+TWMgFA/4P3ahvrYeCrkCrY2tUBYUwWq1QhqFhYWYnZ7F0JMhuJ1uAsbjAI8RHybbMTo4yktoEVrQ
+dLEJoVCIAYPBAPuIHSpBxUBoY4KAqXhAh9LTpQxI15rKGiQnJ0MQBBQXFyNpfxJyD+XCNe4i4DVC
+W+6/gLhTQUZaBoQLAgMajQZzc3NQKpW8hJycHKQcTMHJY3kETFIFu4AHEL2P0HC+hJMz0zN55sjI
+z8+HQqFA+Zly3LhaRz1w7l6CuCwBD9FQFwbMPWaeWRoWi4WT44Hd27jcQ4AxCpi6TJDL5dDr9dzA
+CJC4dw98n4fDPdicjgW6CeiFTl2JgqMFKDl1BB26Wp5dpVJBJpOhquIEgms2BNcdBExRE2diluA1
+QFzpQ9BnhuiXYgBO63UGdDodVzFoUu8AryikHsRUIHqpBwSI/sc7gJkATRSQroMmOgMSsGYngH5l
+2okosL2oJcAI0ddPySaGIkB1dTXUajWcL29BJEBkwEHARBiQjqR0Ex9fLIfpDCTybnReTv3nfTjy
+8Acft9B6Lj14JgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow,delphiwindow"
+		capname="form"
+		id="b3a77fa1-3e1c-4d31-b124-949eb0546667"
+		isrooted="True"
+		name="GestionDesComptesJoueurs23101456"
+		refpath="/form[@name='Player_AccountManagement']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow,delphielement"
+			capname="button"
+			id="2d85da19-343f-45ad-a495-4f111e59a214"
+			name="ButtonFermer"
+			refimgid="37988782-ecb1-4637-b075-2d76864c301c"
+			refpath="/form[@name='Player_AccountManagement']/container[@name='DefaultMccButNav']/button[@name='BtnClose']"
+			robustPath="/form[@name='Player_AccountManagement']/?/?/button[@name='BtnClose']"
+			searchtimeout="30000ms">
+				/form[@name='Player_AccountManagement']/?/?/button[@name='BtnClose']
+			</item>
+			<basepath>
+				/form[@name='Player_AccountManagement']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKQSURBVDhPfdNfSFNxFAdwnwdlZEL+FyQXM6QH
+tVUP1oMKgYKYiCVhIDcdYkqj1qBmPdTyIf+wZuma1IPmasZwMZ3mnEEmPRQ+ZEZYc25J/nsydjfo
+27lnbs0F/eBwL/fe8/md3/ndX8LvbW/6miMP/4v1MQVsHVl4cSeT7yPPt2bPvU3gDyaKEPhuxMZC
+J86WH8fta5UIrDyF+OMZxNVhOEfa4Vn0YOnTEgaMVxDcGMMvTz8jDAS+GQjoRUVZEebfzMNlc+Hn
+Qi8BQwiuWjD2/CYnS9F9T8VAcHMyBqDZA54+tF0q42RtmxZf39/HO+ddVFFFB5L2ITsrG82NzUhL
+TWMgFA/4P3ahvrYeCrkCrY2tUBYUwWq1QhqFhYWYnZ7F0JMhuJ1uAsbjAI8RHybbMTo4yktoEVrQ
+dLEJoVCIAYPBAPuIHSpBxUBoY4KAqXhAh9LTpQxI15rKGiQnJ0MQBBQXFyNpfxJyD+XCNe4i4DVC
+W+6/gLhTQUZaBoQLAgMajQZzc3NQKpW8hJycHKQcTMHJY3kETFIFu4AHEL2P0HC+hJMz0zN55sjI
+z8+HQqFA+Zly3LhaRz1w7l6CuCwBD9FQFwbMPWaeWRoWi4WT44Hd27jcQ4AxCpi6TJDL5dDr9dzA
+CJC4dw98n4fDPdicjgW6CeiFTl2JgqMFKDl1BB26Wp5dpVJBJpOhquIEgms2BNcdBExRE2diluA1
+QFzpQ9BnhuiXYgBO63UGdDodVzFoUu8AryikHsRUIHqpBwSI/sc7gJkATRSQroMmOgMSsGYngH5l
+2okosL2oJcAI0ddPySaGIkB1dTXUajWcL29BJEBkwEHARBiQjqR0Ex9fLIfpDCTybnReTv3nfTjy
+8Acft9B6Lj14JgAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

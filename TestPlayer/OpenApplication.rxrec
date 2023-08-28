@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7a553973-a216-4c4e-bdde-e9298712a8a2"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenApplication"
+	namespace="TestPlayer">
+	</codegen>
+	<variables>
+		<var
+		id="c72693fc-8c37-4a5b-8e7d-ee2afce0dfa7"
+		name="StartAutProcessIDVar">
+		</var>
+		<var
+		id="492c52ac-c7f1-4f9b-98c0-35ddc11217af"
+		name="ApplicationPath">
+			C:\Program Files (x86)\Bally Technologies\MCC Casino System\Player.exe
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+				<binding
+				target="FileName"
+				variable="ApplicationPath">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Program Files (x86)\Bally Technologies\MCC Casino System\Player.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="f8f2eb6e-ed09-484e-a7d7-c45176af8f99"
+	name="TestPlayerRepository"
+	relativepath="TestPlayerRepository.rxrep">
+		<codegen
+		classname="TestPlayerRepository"
+		namespace="TestPlayer">
+		</codegen>
+		<rootfolder
+		id="4958389b-0572-4dce-bb3d-6a1e072c8e7a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenApplication.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
